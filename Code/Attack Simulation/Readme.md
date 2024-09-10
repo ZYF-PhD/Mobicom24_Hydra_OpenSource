@@ -65,8 +65,8 @@ Draw.m data loading defaults to any group in the Data document.
 
 **Simulation results display:(Data stored in the data document)**
 
-<img src="picture/malicious.jpg" alt="picture" style="zoom: 110%;" />
+<img src="figure/malicious.jpg" alt="picture" style="zoom: 110%;" />
 
 **Flow chart:**
 
-<img src="picture/flowchart.jpg" alt="picture" style="zoom: 60%;" />
+<img src="figure/flowchart.jpg" alt="picture" style="zoom: 60%;" />
