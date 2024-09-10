@@ -14,12 +14,12 @@ Harmonic generation is a MATLAB documentation,It is mainly a principle simulatio
 
   **incident signal :** 
 
-![Emerging signal](Incident_signal.jpg)
+![Emerging signal](\figure\Incident_signal.jpg)
 
  **state transition sequence :** 
 
-![Emerging signal](State_transition.jpg)
+![Emerging signal](\figureState_transition.jpg)
 
   **harmonic generation**: 
 
-![Emerging signal](Emerging_signal.jpg)
+![Emerging signal](\figureEmerging_signal.jpg)
