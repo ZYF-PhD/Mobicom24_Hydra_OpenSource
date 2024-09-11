@@ -12,7 +12,7 @@ To assess the impact of the frequency-shifted malicious signal, we observe the p
 
 - **HTMIMOPacketErrorRate script: HTMIMOPacketErrorRate.m**
 
-  Description: We superimposed different frequency offset signals and introduced the concept of signal-to-interference ratio (SIR) for simulation based on the example given in the official MATLAB article '[802.11n Packet Error Rate Simulation for 2x2 TGn Channel](https://www.mathworks.com/help/wlan/ug/802-11n-packet-error-rate-simulation-for-2x2-tgn-channel.html)'.
+  Description: We superimposed different frequency-shifted signals and introduced the concept of signal-to-interference ratio (SIR) for simulation based on the example given in the official MATLAB article '[802.11n Packet Error Rate Simulation for 2x2 TGn Channel](https://www.mathworks.com/help/wlan/ug/802-11n-packet-error-rate-simulation-for-2x2-tgn-channel.html)'.
 
   By modifying the MCS (0, 3, 7) and superimposing the number of malicious frequency-shifted signals (1, 2, 3), the packet error rate (PER) of OFDM signal decoding under different signal-to-interference ratios (SIR) is calculated and the data is saved.
 
@@ -55,7 +55,8 @@ To assess the impact of the frequency-shifted malicious signal, we observe the p
 
   Description: Because HTMIMOPacketErrorRate.m processes a large amount of data simultaneously, the operation is time-consuming. The data document primarily stores the PER values calculated by HTMIMOPacketErrorRate.m.
   
-  The number at the end indicates the number of superimposed malicious frequency-shifted signals. Each MaliciousSignals contains three sets of data, corresponding to the RIS data and PER data of MCS (0, 3, 7) respectively.
+  The number at the end of each file name indicates the count of superimposed malicious frequency-shifted signals. Each MaliciousSignals
+file contains three data sets corresponding to the PER data for MCS levels (0, 3, 7).
 
 ## Additional Notes
 
