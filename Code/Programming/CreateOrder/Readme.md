@@ -2,7 +2,7 @@
 
 ## Introduction
 
-CreateOrder is a MATLAB documentation,It is used to calculate the compensation phase required by RIS and the corresponding beamforming pattern under ideal conditions when a given beamforming target (azimuth angle, pitch angle) is given. We can use this code to determine the compensation phase of -1, +1 order harmonics in different attack directions.
+CreateOrder is a MATLAB documentation, It is used to calculate the compensation phase required by RIS and the corresponding beamforming pattern under ideal conditions when a given beamforming target (azimuth angle, pitch angle) is given. We can use this code to determine the compensation phase of -1, +1 order harmonics in different attack directions.
 
 This project aims to save the compensation phase required for different beamforming directions of RIS in an offline manner in advance to facilitate subsequent search and calculation, and at the same time draw the corresponding ideal direction diagram.
 
