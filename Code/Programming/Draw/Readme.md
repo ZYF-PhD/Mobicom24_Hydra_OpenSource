@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Draw is a MATLAB documentation,use the FindCode document to find the saved -1 and +1 harmonic amplitudes and phases to draw the corresponding direction pattern.
+Draw is a MATLAB documentation, use the FindCode document to find the saved -1 and +1 harmonic amplitudes and phases to draw the corresponding direction pattern.
 
-This project aims to draw -1 and +1 harmonic directional diagrams based on the data obtained by FindCode, and verify whether the RIS state transition sequence table found meets expectations.
+This project aims to draw -1 and +1 harmonic directional diagrams based on the data obtained by FindCode and verify whether the RIS state transition sequence table meets expectations.
 
 ## Instructions for use
 
