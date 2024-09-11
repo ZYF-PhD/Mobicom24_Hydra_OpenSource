@@ -2,7 +2,7 @@
 
 ## Introduction
 
-FindCode is a MATLAB documentation,use the -1 and +1 order harmonic target compensation phases saved in advance in the CreateOrder document and the state transition sequence list and amplitude phase table saved in advance in the CreateTable document to determine the state transition sequence of each meta-atom of the RIS.
+FindCode is a MATLAB documentation, that uses the -1 and +1 order harmonic target compensation phases saved in advance in the CreateOrder document and the state transition sequence list and amplitude phase table saved in advance in the CreateTable document to determine the state transition sequence of each meta-atom of the RIS.
 
 This project aims to determine the state transition sequence and corresponding amplitude and phase of each unit of RIS using the data previously saved offline, and saving the results in text form for subsequent verification.
 
@@ -14,13 +14,13 @@ This project aims to determine the state transition sequence and corresponding a
 
   The script performs the following operations:
 
-  Data loading: Load the -1st and +1st harmonic target compensation phases pre-saved in the CreateOrder file and the state transfer sequence list and amplitude phase table pre-saved in the CreateTable file into MATLAB.
+  Data loading: Load the -1st and +1st harmonic target compensation phases pre-saved in the CreateOrder file and the state transfer sequence list and amplitude-phase table pre-saved in the CreateTable file into MATLAB.
   
   Data processing: Unify data formats.
   
-  Data search: Find the state transition sequence and corresponding amplitude phase of each unit of RIS.
+  Data search: Find the state transition sequence and corresponding amplitude-phase of each unit of RIS.
   
-  Data storage: Save the state transition sequence table and the amplitude phase corresponding to the -1 and +1 order harmonics.
+  Data storage: Save the state transition sequence table and the amplitude-phase corresponding to the -1 and +1 order harmonics.
   
 - **Function: MeijuDouble.m**
   
@@ -41,5 +41,5 @@ This project aims to determine the state transition sequence and corresponding a
   
 ## Additional Notes
 
-If you are not satisfied with the harmonic pattern of order -1, +1 after running the Draw document, you can change the weights w1,w2 in MeijuDouble.m to realize the fine tuning of the beamforming.
+If you are not satisfied with the harmonic pattern of order -1, +1 after running the Draw document, you can change the weights w1,w2 in MeijuDouble.m to realize the fine-tuning of the beamforming.
 
