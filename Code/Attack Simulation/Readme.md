@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Attack Simulation is a MATLAB documentation,Simulate the PER of OFDM signal decoding using different modulation and coding schemes (MCS = 0, 3, 7) when 1, 2, and 3 malicious frequency shifted signals are superimposed respectively.
+Attack Simulation is a MATLAB documentation, Simulate the PER of OFDM signal decoding using different modulation and coding schemes (MCS = 0, 3, 7) when 1, 2, and 3 malicious frequency shifted signals are superimposed respectively.
 
 Our simulations are conducted using the MATLAB WLAN Toolbox . The foundational simulation parameters of the Wi-Fi system are set to the IEEE 802.11n wireless standard with HT Mixed mode, employing a 40 MHz bandwidth, 2x2 MIMO channels, 30 SNR, and Channel Model-D. 
 
@@ -26,7 +26,7 @@ To assess the impact of the frequency-shifted malicious signal, we observe the p
   function [nest,sigest] = htNoiseEstimate(x,chanEst,cfgHT,varargin)
   % 'htNoiseEstimate.m' is used in the following example:
   %  802.11n Packet Error Rate Simulation for 2x2 TGn Channel,
-  %  htNoiseEstimate.m' is a function written by Matlab. We just call it during simulation.
+  %  htNoiseEstimate.m' is a function written by Matlab. We just call it during the simulation.
   ```
   
 - **Draw script: Draw .m**
@@ -35,7 +35,7 @@ To assess the impact of the frequency-shifted malicious signal, we observe the p
 
 - **Function: GenColormap.m**
 
-  Description: GenColormap.m is used to build colorbar color map to help draw images.
+  Description: GenColormap.m is used to build a color map to help draw images.
   
   ```matlab
   function colormap = GenColormap(map, n)
