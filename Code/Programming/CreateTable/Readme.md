@@ -2,7 +2,7 @@
 
 ## Introduction
 
-CreateTable is a MATLAB documentation,It is used to create and save a state transition sequence list under certain constraints, and at the same time save the amplitude and phase of the -1 and +1 order harmonics under the corresponding sequence.
+CreateTable is a MATLAB documentation, It is used to create and save a state transition sequence list under certain constraints, and at the same time save the amplitude and phase of the -1 and +1 order harmonics under the corresponding sequence.
 
 This project aims to save the required data in advance in an offline manner to facilitate subsequent search and calculation.
 
@@ -10,7 +10,7 @@ This project aims to save the required data in advance in an offline manner to f
 
 - **Main script: main.m** 
   
-  Description: main.m is the main script of the project, responsible for Create code table and  amplitude phase table. 
+  Description: main.m is the main script of the project, responsible for Creating the code table and  amplitude-phase table. 
   
   The script performs the following operations:
   
