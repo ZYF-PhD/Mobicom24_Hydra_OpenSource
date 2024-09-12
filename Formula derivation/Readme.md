@@ -100,7 +100,7 @@ $$
 \alpha_k &= \frac{1}{T_0} \int_0^{T_0} \Theta(t) e^{-j 2 \pi k f_\Delta t} dt, \quad 0 < t < T_0 \\
     &= \frac{1}{T_0} \int_0^{T_0} \sum_{m=0}^{M-1} e^{j \theta_m} g(t - m t_0) e^{-j 2 \pi k f_\Delta t} dt \\
     &= \sum_{m=0}^{M-1} e^{j \theta_m} \frac{1}{T_0} \int_{(m-1)t_0}^{m t_0} e^{-j 2 \pi k f_\Delta t} dt \\
-    &= \sum_{m=0}^{M-1} e^{j \theta_m} \int_{\frac{m}{M}}^{\frac{m-1}{M}} e^{-j 2 \pi k t} dt \\
+    &= \sum_{m=0}^{M-1} e^{j \theta_m} \int_{\frac{m-1}{M}}^{\frac{m}{M}} e^{-j 2 \pi k t} dt \\
     &= \sum_{m=0}^{M-1} \frac{e^{j \theta_m}}{-j 2 \pi k} \left( e^{-j \frac{2 \pi k m}{M}} - e^{-j \frac{2 \pi k (m-1)}{M}} \right) \\
     &= \sum_{m=0}^{M-1} e^{j \theta_m} \frac{\sin\left( \frac{\pi k}{M} \right)}{\pi k} e^{-j \frac{\pi k (2m+1)}{M}} \\
     &= \text{sinc}\left( \frac{\pi k}{M} \right) \cdot \frac{1}{M} \sum_{m=0}^{M-1} e^{j \left( \theta_m - \frac{k \pi (2m+1)}{M} \right)}
